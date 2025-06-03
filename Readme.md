@@ -6,26 +6,6 @@ https://hub.docker.com/repository/docker/enriialegre/login-usuarios/general
 
 ---
 
-## 📁 Estructura del proyecto
-
-```
-backend3-main/
-├── src/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middlewares/
-│   ├── utils/
-│   └── app.js
-├── test/
-│   └── adoptions.test.js
-├── .env
-├── package.json
-└── README.md
-```
-
----
-
 ## 🚀 Tecnologías utilizadas
 
 - Node.js
@@ -43,9 +23,6 @@ La API utiliza JWT para proteger rutas. Se requiere enviar el token en el header
 ```
 Authorization: Bearer <token>
 ```
-
-Podés obtener el token iniciando sesión en `/api/sessions/login`.
-
 ---
 
 ## 📌 Endpoints principales
@@ -83,17 +60,6 @@ Tests implementados:
 
 ---
 
-## 🔧 Variables de entorno
-
-En el archivo `.env`:
-
-```
-PORT=8080
-MONGO_URL=mongodb://localhost:27017/adoptame
-JWT_SECRET=claveSuperSecreta
-```
-
----
 
 ## 📌 Consideraciones
 
@@ -102,4 +68,3 @@ JWT_SECRET=claveSuperSecreta
 - Las adopciones están relacionadas con usuarios y mascotas en la base de datos.
 
 ---
-s
